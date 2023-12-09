@@ -1,0 +1,63 @@
+<body>
+   <canvas></canvas>
+   <style>
+    body{
+        margin:0
+    }
+    canvas{
+        width:100vw;
+        height:100vh
+    }
+   </style>
+        <script type="module">
+            import {createWorld, loadAsset, getVector,moveMesh, locateMesh, getRandom, getColor, createBox} from './engine.js'
+
+            let canvas = window.document.querySelector('canvas');
+            let scene = await createWorld(canvas, true);
+            let platform = await loadAsset('platform.glb');
+            locateMesh(platform, getVector(0,0, -100))
+            scene.clearColor = getColor(51,132,132, 1);
+            let isAssetsLoaded = true;
+            let isGameStarted = false;
+            let platformArray = [];
+            let delta = 0;
+            let speed = 300;
+            const generateRoadBlock = (positionZ)=>{
+                let newPlatform = platform.clone()
+                locateMesh(newPlatform, getVector(0,0,positionZ))
+                platformArray.push(newPlatform)
+            }
+            const replacePlatform = ()=>{
+                let firstPlatform = platformArray.shift()
+                firstPlatform.position.z = platformArray[platformArray.length - 1].position.z + 5
+                platformArray.push(firstPlatform)
+            }
+            const update =()=>{
+                    platformArray.map(mesh =>{
+                        mesh.moveWithCollisions(getVector(0,0,-5 *(scene.deltaTime/speed)))
+                    })
+                    delta += scene.deltaTime;
+                    if(delta >= speed){
+                        delta = 0;
+                        replacePlatform()
+                    }
+                }
+        
+            for(let i=-18; i<30; i++){
+                generateRoadBlock(i*5)
+            }
+            scene.registerBeforeRender(()=>{
+                if(isGameStarted) update()
+            })
+            const tapEventListener = (event) =>{
+                if(isAssetsLoaded) isGameStarted = true;
+            }
+            window.addEventListener('click', (event)=> tapEventListener(event))
+            window.addEventListener('keyup', (event)=> {
+            if(event.code === 'Space'){
+                tapEventListener()
+            }
+            })
+
+        </script>
+</body>
