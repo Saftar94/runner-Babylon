@@ -1,0 +1,87 @@
+{
+	"tags": null,
+	"ambient": [
+		0,
+		0,
+		0
+	],
+	"diffuse": [
+		0.008465781188991384,
+		0.11200000214576722,
+		0.0021279992852806934
+	],
+	"specular": [
+		1,
+		1,
+		1
+	],
+	"emissive": [
+		0,
+		0,
+		0
+	],
+	"specularPower": 64,
+	"useAlphaFromDiffuseTexture": false,
+	"useEmissiveAsIllumination": false,
+	"linkEmissiveWithDiffuse": false,
+	"useSpecularOverAlpha": false,
+	"useReflectionOverAlpha": false,
+	"disableLighting": false,
+	"useObjectSpaceNormalMap": false,
+	"useParallax": false,
+	"useParallaxOcclusion": false,
+	"parallaxScaleBias": 0.05,
+	"roughness": 0,
+	"indexOfRefraction": 0.98,
+	"invertRefractionY": true,
+	"alphaCutOff": 0.4,
+	"useLightmapAsShadowmap": false,
+	"useReflectionFresnelFromSpecular": false,
+	"useGlossinessFromSpecularMapAlpha": false,
+	"maxSimultaneousLights": 4,
+	"invertNormalMapX": false,
+	"invertNormalMapY": false,
+	"twoSidedLighting": false,
+	"id": "aa9b19fe-eec3-461e-be6f-af3c712cc241",
+	"name": "Material::green_dark",
+	"metadata": {
+		"editorPath": "meshes/Material!green_dark-2391370314048.material",
+		"originalSourceFile": {
+			"id": "2391370314048",
+			"name": "Material::green_dark",
+			"sceneFileName": "meshes/Bushes.fbx"
+		}
+	},
+	"checkReadyOnEveryCall": false,
+	"checkReadyOnlyOnce": false,
+	"state": "",
+	"alpha": 1,
+	"backFaceCulling": true,
+	"cullBackFaces": true,
+	"sideOrientation": 1,
+	"alphaMode": 2,
+	"_needDepthPrePass": false,
+	"disableDepthWrite": false,
+	"disableColorWrite": false,
+	"forceDepthWrite": false,
+	"depthFunction": 0,
+	"separateCullingPass": false,
+	"fogEnabled": true,
+	"pointSize": 1,
+	"zOffset": 0,
+	"zOffsetUnits": 0,
+	"pointsCloud": false,
+	"fillMode": 0,
+	"stencil": {
+		"tags": null,
+		"func": 519,
+		"funcRef": 1,
+		"funcMask": 255,
+		"opStencilFail": 7680,
+		"opDepthFail": 7680,
+		"opStencilDepthPass": 7681,
+		"mask": 255,
+		"enabled": false
+	},
+	"uniqueId": 5211
+}

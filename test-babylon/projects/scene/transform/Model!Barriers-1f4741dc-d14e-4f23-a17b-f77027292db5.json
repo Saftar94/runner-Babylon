@@ -1,0 +1,65 @@
+{
+	"tags": null,
+	"position": [
+		0,
+		0,
+		0
+	],
+	"rotation": [
+		0,
+		0,
+		0
+	],
+	"rotationQuaternion": [
+		0,
+		0,
+		0,
+		1
+	],
+	"scaling": [
+		1,
+		1,
+		1
+	],
+	"billboardMode": 0,
+	"scalingDeterminant": 1,
+	"infiniteDistance": false,
+	"ignoreNonUniformScaling": false,
+	"reIntegrateRotationIntoRotationQuaternion": false,
+	"name": "Model::Barriers",
+	"id": "1f4741dc-d14e-4f23-a17b-f77027292db5",
+	"state": "",
+	"metadata": {
+		"script": {
+			"name": "None",
+			"properties": {
+				"_speed": {
+					"type": "number",
+					"value": 1
+				}
+			}
+		}
+	},
+	"type": "TransformNode",
+	"uniqueId": 3791,
+	"parentId": "c590e5b1-4ae4-4296-b714-83fb497cdb80",
+	"localMatrix": {
+		"0": 1,
+		"1": 0,
+		"2": 0,
+		"3": 0,
+		"4": 0,
+		"5": 1,
+		"6": 0,
+		"7": 0,
+		"8": 0,
+		"9": 0,
+		"10": 1,
+		"11": 0,
+		"12": 0,
+		"13": 0,
+		"14": 0,
+		"15": 1
+	},
+	"isEnabled": true
+}

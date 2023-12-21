@@ -1,0 +1,455 @@
+{
+	"materials": [],
+	"skeletons": [
+		{
+			"name": "Deformer::Skin",
+			"id": 274,
+			"bones": [
+				{
+					"parentBoneIndex": -1,
+					"index": 0,
+					"name": "Model::polySurface1743-Deformer::Skin-Model::mixamorig:LeftFoot",
+					"id": "643c49da-e5b8-44c5-8955-8b3639197481",
+					"matrix": {
+						"0": 0.998365581035614,
+						"1": 4.803482056559005e-10,
+						"2": -0.05715084820985794,
+						"3": 0,
+						"4": 0.047278475016355515,
+						"5": 0.561822772026062,
+						"6": 0.8259055018424988,
+						"7": 0,
+						"8": 0.032108649611473083,
+						"9": -0.8272576332092285,
+						"10": 0.5609045028686523,
+						"11": 0,
+						"12": -2.9107201093836466e-9,
+						"13": 10.907230377197266,
+						"14": -2.1129533678276857e-8,
+						"15": 1
+					},
+					"rest": {
+						"0": 0.998365581035614,
+						"1": 4.803482056559005e-10,
+						"2": -0.05715084820985794,
+						"3": 0,
+						"4": 0.047278475016355515,
+						"5": 0.561822772026062,
+						"6": 0.8259055018424988,
+						"7": 0,
+						"8": 0.032108649611473083,
+						"9": -0.8272576332092285,
+						"10": 0.5609045028686523,
+						"11": 0,
+						"12": -2.9107201093836466e-9,
+						"13": 10.907230377197266,
+						"14": -2.1129533678276857e-8,
+						"15": 1
+					},
+					"metadata": {
+						"connections": {
+							"parents": [
+								{
+									"id": 63112048
+								},
+								{
+									"id": 71451344
+								},
+								{
+									"id": 71645936
+								},
+								{
+									"id": 71661600
+								},
+								{
+									"id": 71677104
+								},
+								{
+									"id": 71692608
+								},
+								{
+									"id": 71706032
+								},
+								{
+									"id": 71721232
+								},
+								{
+									"id": 71737696
+								},
+								{
+									"id": 71754160
+								},
+								{
+									"id": 71765136
+								},
+								{
+									"id": 71779168
+								},
+								{
+									"id": 71794208
+								},
+								{
+									"id": 71803984
+								},
+								{
+									"id": 71821920
+								},
+								{
+									"id": 71857120
+								},
+								{
+									"id": 71930880
+								},
+								{
+									"id": 71944304
+								},
+								{
+									"id": 71959504
+								},
+								{
+									"id": 71975968
+								},
+								{
+									"id": 71992432
+								},
+								{
+									"id": 72008896
+								},
+								{
+									"id": 72025360
+								},
+								{
+									"id": 72041824
+								},
+								{
+									"id": 72050416
+								},
+								{
+									"id": 72936656
+								}
+							],
+							"children": [
+								{
+									"id": 61174080
+								},
+								{
+									"id": 63122880
+								},
+								{
+									"id": 60510144,
+									"relationship": "Lcl Rotation"
+								}
+							]
+						},
+						"originalId": "643c49da-e5b8-44c5-8955-8b3639197481"
+					}
+				},
+				{
+					"parentBoneIndex": 0,
+					"index": 1,
+					"name": "Model::polySurface1743-Deformer::Skin-Model::mixamorig:LeftToeBase",
+					"id": "d3eadc12-8f0e-4911-9672-41cbf307a5bc",
+					"matrix": {
+						"0": 0.996584951877594,
+						"1": 1.0141759432258368e-8,
+						"2": -0.08257414400577545,
+						"3": 0,
+						"4": 0.0508921816945076,
+						"5": 0.787494957447052,
+						"6": 0.6142163276672363,
+						"7": 0,
+						"8": 0.06502673029899597,
+						"9": -0.6163210868835449,
+						"10": 0.7848055958747864,
+						"11": 0,
+						"12": -1.997911613926817e-9,
+						"13": 4.959819316864014,
+						"14": -1.8938362700282596e-7,
+						"15": 1
+					},
+					"rest": {
+						"0": 0.996584951877594,
+						"1": 1.0141759432258368e-8,
+						"2": -0.08257414400577545,
+						"3": 0,
+						"4": 0.0508921816945076,
+						"5": 0.787494957447052,
+						"6": 0.6142163276672363,
+						"7": 0,
+						"8": 0.06502673029899597,
+						"9": -0.6163210868835449,
+						"10": 0.7848055958747864,
+						"11": 0,
+						"12": -1.997911613926817e-9,
+						"13": 4.959819316864014,
+						"14": -1.8938362700282596e-7,
+						"15": 1
+					},
+					"metadata": {
+						"connections": {
+							"parents": [
+								{
+									"id": 63117456
+								},
+								{
+									"id": 71460080
+								},
+								{
+									"id": 71651264
+								},
+								{
+									"id": 71666768
+								},
+								{
+									"id": 71682272
+								},
+								{
+									"id": 71697776
+								},
+								{
+									"id": 71710736
+								},
+								{
+									"id": 71726720
+								},
+								{
+									"id": 71743184
+								},
+								{
+									"id": 71759648
+								},
+								{
+									"id": 71773392
+								},
+								{
+									"id": 71784336
+								},
+								{
+									"id": 71799632
+								},
+								{
+									"id": 71809760
+								},
+								{
+									"id": 71824992
+								},
+								{
+									"id": 71862576
+								},
+								{
+									"id": 71936048
+								},
+								{
+									"id": 71949008
+								},
+								{
+									"id": 71964992
+								},
+								{
+									"id": 71981456
+								},
+								{
+									"id": 71997920
+								},
+								{
+									"id": 72014384
+								},
+								{
+									"id": 72030848
+								},
+								{
+									"id": 72045040
+								},
+								{
+									"id": 72149168
+								},
+								{
+									"id": 72949600
+								}
+							],
+							"children": [
+								{
+									"id": 61176656
+								},
+								{
+									"id": 63128176
+								},
+								{
+									"id": 59921936,
+									"relationship": "Lcl Rotation"
+								}
+							]
+						},
+						"originalId": "d3eadc12-8f0e-4911-9672-41cbf307a5bc"
+					}
+				}
+			],
+			"needInitialSkinMatrix": false,
+			"ranges": []
+		}
+	],
+	"meshes": [
+		{
+			"name": "Model::polySurface1743",
+			"id": "e07e354c-a689-47b2-b3a5-ee4dfae93b12",
+			"uniqueId": 16609,
+			"type": "Mesh",
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotationQuaternion": [
+				0,
+				0,
+				0,
+				1
+			],
+			"scaling": [
+				1,
+				1,
+				1
+			],
+			"localMatrix": {
+				"0": 1,
+				"1": 0,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 0,
+				"7": 0,
+				"8": 0,
+				"9": 0,
+				"10": 1,
+				"11": 0,
+				"12": 0,
+				"13": 0,
+				"14": 0,
+				"15": 1
+			},
+			"isEnabled": true,
+			"isVisible": true,
+			"infiniteDistance": false,
+			"pickable": true,
+			"receiveShadows": false,
+			"billboardMode": 0,
+			"visibility": 1,
+			"checkCollisions": false,
+			"isBlocker": false,
+			"overrideMaterialSideOrientation": null,
+			"parentId": "ba13f988-ea12-49fa-b792-11d553c811b5",
+			"isUnIndexed": false,
+			"geometryId": "f38191f1-c799-4808-9f89-c7b392fc02a7",
+			"subMeshes": null,
+			"materialId": "150abb8d-a5c0-4713-b55c-6bd8d52a11cc",
+			"skeletonId": 274,
+			"numBoneInfluencers": 4,
+			"metadata": {
+				"basePoseMatrix": {
+					"0": 1,
+					"1": 0,
+					"2": 0,
+					"3": 0,
+					"4": 0,
+					"5": 1,
+					"6": 0,
+					"7": 0,
+					"8": 0,
+					"9": 0,
+					"10": 1,
+					"11": 0,
+					"12": 0,
+					"13": 0,
+					"14": 0,
+					"15": 1
+				},
+				"originalSourceFile": {
+					"id": "Model::polySurface1743",
+					"name": "Model::polySurface1743",
+					"sceneFileName": "meshes/Player.fbx"
+				},
+				"isPickable": false
+			},
+			"instances": [],
+			"animations": [],
+			"ranges": [],
+			"layerMask": 268435455,
+			"alphaIndex": 1.7976931348623157e+308,
+			"hasVertexAlpha": false,
+			"overlayAlpha": 0.5,
+			"overlayColor": [
+				1,
+				0,
+				0
+			],
+			"applyFog": true,
+			"delayLoadingFile": "geometries/f38191f1-c799-4808-9f89-c7b392fc02a7.babylonbinarymeshdata",
+			"boundingBoxMaximum": [
+				-1.777117133140564,
+				-0.18428540229797363,
+				4.1816935539245605
+			],
+			"boundingBoxMinimum": [
+				-2.285994291305542,
+				-0.762932538986206,
+				3.5752415657043457
+			],
+			"_binaryInfo": {
+				"positionsAttrDesc": {
+					"count": 2808,
+					"stride": 3,
+					"offset": 0,
+					"dataType": 1
+				},
+				"normalsAttrDesc": {
+					"count": 2808,
+					"stride": 3,
+					"offset": 11232,
+					"dataType": 1
+				},
+				"uvsAttrDesc": {
+					"count": 1872,
+					"stride": 2,
+					"offset": 22464,
+					"dataType": 1
+				},
+				"matricesIndicesAttrDesc": {
+					"count": 936,
+					"stride": 1,
+					"offset": 29952,
+					"dataType": 0
+				},
+				"matricesWeightsAttrDesc": {
+					"count": 3744,
+					"stride": 2,
+					"offset": 33696,
+					"dataType": 1
+				},
+				"indicesAttrDesc": {
+					"count": 936,
+					"stride": 1,
+					"offset": 48672,
+					"dataType": 0
+				},
+				"subMeshesAttrDesc": {
+					"count": 1,
+					"stride": 5,
+					"offset": 52416,
+					"dataType": 0
+				}
+			},
+			"positions": null,
+			"normals": null,
+			"uvs": null,
+			"hasUVs": true,
+			"matricesIndices": null,
+			"hasMatricesIndices": true,
+			"matricesWeights": null,
+			"hasMatricesWeights": true,
+			"indices": null
+		}
+	],
+	"multiMaterials": [],
+	"lods": []
+}

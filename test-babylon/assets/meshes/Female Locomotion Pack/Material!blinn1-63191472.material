@@ -1,0 +1,87 @@
+{
+	"tags": null,
+	"ambient": [
+		0,
+		0,
+		0
+	],
+	"diffuse": [
+		0.615999993920326,
+		0.3702159936758278,
+		0.3702159936758278
+	],
+	"specular": [
+		0.1282062977552414,
+		0.1282062977552414,
+		0.1282062977552414
+	],
+	"emissive": [
+		0,
+		0,
+		0
+	],
+	"specularPower": 64,
+	"useAlphaFromDiffuseTexture": false,
+	"useEmissiveAsIllumination": false,
+	"linkEmissiveWithDiffuse": false,
+	"useSpecularOverAlpha": false,
+	"useReflectionOverAlpha": false,
+	"disableLighting": false,
+	"useObjectSpaceNormalMap": false,
+	"useParallax": false,
+	"useParallaxOcclusion": false,
+	"parallaxScaleBias": 0.05,
+	"roughness": 0,
+	"indexOfRefraction": 0.98,
+	"invertRefractionY": true,
+	"alphaCutOff": 0.4,
+	"useLightmapAsShadowmap": false,
+	"useReflectionFresnelFromSpecular": false,
+	"useGlossinessFromSpecularMapAlpha": false,
+	"maxSimultaneousLights": 4,
+	"invertNormalMapX": false,
+	"invertNormalMapY": false,
+	"twoSidedLighting": false,
+	"id": "c31ed5bf-f926-403e-bd6a-576b14312a15",
+	"name": "Material::blinn1",
+	"metadata": {
+		"editorPath": "meshes/Female Locomotion Pack/Material!blinn1-63191472.material",
+		"originalSourceFile": {
+			"id": "63191472",
+			"name": "Material::blinn1",
+			"sceneFileName": "meshes/Female Locomotion Pack/Player.fbx"
+		}
+	},
+	"checkReadyOnEveryCall": false,
+	"checkReadyOnlyOnce": false,
+	"state": "",
+	"alpha": 1,
+	"backFaceCulling": true,
+	"cullBackFaces": true,
+	"sideOrientation": 1,
+	"alphaMode": 2,
+	"_needDepthPrePass": false,
+	"disableDepthWrite": false,
+	"disableColorWrite": false,
+	"forceDepthWrite": false,
+	"depthFunction": 0,
+	"separateCullingPass": false,
+	"fogEnabled": true,
+	"pointSize": 1,
+	"zOffset": 0,
+	"zOffsetUnits": 0,
+	"pointsCloud": false,
+	"fillMode": 0,
+	"stencil": {
+		"tags": null,
+		"func": 519,
+		"funcRef": 1,
+		"funcMask": 255,
+		"opStencilFail": 7680,
+		"opDepthFail": 7680,
+		"opStencilDepthPass": 7681,
+		"mask": 255,
+		"enabled": false
+	},
+	"uniqueId": 17008
+}
